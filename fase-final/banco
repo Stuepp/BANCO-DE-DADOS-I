@@ -9,4 +9,8 @@ CREATE TABLE Reward(
   category(25),
   type int,
   primary key(id)
-)
+),
+
+insert into Battlepass values (0,0),
+
+insert into Reward values (0,'nome teste', 'categoria teste', 0)
